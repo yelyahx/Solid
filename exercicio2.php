@@ -11,7 +11,7 @@ interface ModeloItem extends DescontoItem
     public function defineTamanho($tamanho);
 }
 
-interface PrecoItem extends ModeloItem
+interface PrecoItem extends DescontoItem
 {
     public function defineParcelas($parcelas);
     public function definePreco($preco);
